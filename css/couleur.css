@@ -1,0 +1,67 @@
+
+.main{
+    width: 1440px;
+    height: 1150px;
+
+    margin: 0 auto;
+}
+header{
+    background-color:lightgreen;
+    height: 200px;
+}
+.hibou{
+    background-color: gold;
+    width: 200px;
+    height: 200px;
+}
+.navigations{
+    background-color: aqua;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+#Accueil,#Lieu,#Date,#Heure,#Armand{
+    width: 288px;
+}
+.vide{
+    height: 50px;
+    background-color: rgb(255, 82, 206);
+}
+article{
+    height: 500px;
+    background-color: beige;
+}
+.paragraphe{
+    height: 500px;
+    width: 1040px;
+    background-color: rgba(220, 113, 20, 0.717);
+}
+.menus{
+    width: 400px;
+    height: 500px;
+    float: right;
+    background-color: blueviolet;
+}
+.vide1{
+    width: 720px;
+    height: 200px;
+    background-color:red;
+    float:right;
+}
+.vide2{
+    width: 720px;
+    height: 200px;
+    background-color: yellow;
+
+}
+.vide3{
+    width: 720px;
+    height: 100px;
+    background-color: green;
+    float: right;
+}
+.vide4{
+    width: 720px;
+    height: 100px;
+    background-color: blue;
+}
