@@ -2,7 +2,6 @@
 .main{
     width: 1440px;
     height: 1150px;
-
     margin: 0 auto;
 }
 header{
@@ -15,16 +14,50 @@ header{
     height: 200px;
 }
 .navigations{
-    background-color: aqua;
     height: 60px;
     display: flex;
     justify-content: center;
+    position: relative;
+    transition: 0.6s ease;
+    font-weight: 500;
 }
 #Accueil,#Lieu,#Date,#Heure,#Armand{
     width: 288px;
+    cursor: pointer;
+    animation: mymove 5s initial;
+
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.282);
+}
+.navigations:hover{
+    background-color: azure;
+}
+@media only screen and (max-width: 720px) {
+    #Accueil, #Lieu, #Date, #Heure, #Armand {
+      display: column;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    .vide {
+      background-color: rgb(2, 62, 82);
+    }
+    .vide1 {
+        background-color: rgb(52, 125, 0);
+      }
+      .vide2 {
+        background-color: lightblue;
+      }
+      .vide3 {
+        background-color: rgb(196, 0, 95);
+      }
+  }
+  
+  @keyframes mymove{
+   opacity{}
 }
 .vide{
-    height: 50px;
+    height: 100px;
     background-color: rgb(255, 82, 206);
 }
 article{
